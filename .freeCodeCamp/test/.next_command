@@ -27,3 +27,30 @@ git remote add origin https://github.com/hanendyo/bikerental.sql
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m 'bike rental shop'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url https://github.com/hanendyo/bikerental.sql.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git set-url remote https://github.com/hanendyo/bikerental.sql.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url origin https://github.com/hanendyo/bikerental.sql.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git psuh -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
